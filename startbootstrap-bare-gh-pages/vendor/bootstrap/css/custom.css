@@ -1,11 +1,24 @@
-#book-boxs {
+#book-boxs { /*align book in center*/
 	margin-left: auto;
     margin-right: auto;
 }
 
-#pictures {
+#pictures { /*decrease pictures withdt for 30%*/
 	margin: auto;
 	width: 30%;
 	display: block;
+}
+
+#border-container{/*add border lines on the containers on home.html*/
+	border: 1px solid rgba(0, 0, 0, 0.125);
+  	border-radius: 0.25rem;
+}
+
+#logo{/*change logo size */
+	width: 20%;
+}
+
+#logobig { /*index.html set Logo big*/
+    width: 35%;
 }
 
